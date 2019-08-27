@@ -102,7 +102,7 @@ class BlockChain:
             sender="0",  #it implies that this node has created a new block
             receiver=details_miner,
             quantity=
-            1,  #creating a new block (or identifying the proof number) is awared with 1
+            1,  #creating a new block (or identifying the proof number) is awarded with 1
         )
 
         last_block = self.latest_block
