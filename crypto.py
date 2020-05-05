@@ -100,7 +100,7 @@ class BlockChain:
 
         self.new_data(
             sender="0",  #it implies that this node has created a new block
-            receiver=details_miner,
+            recipient=details_miner,
             quantity=
             1,  #creating a new block (or identifying the proof number) is awarded with 1
         )
